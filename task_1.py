@@ -11,6 +11,7 @@
 
 def task_v1(array):
     return array.find('0')
+# Сложность
 
 
 def task_v2(array):
@@ -18,11 +19,13 @@ def task_v2(array):
         if char_value == '0':
             return index
     return -1
+# Сложность O(n)
 
 
 def task_v3(array):
     array_list = list(array)
     return array_list.index('0')
+# Сложность
 
 
 print(task_v1('111111111111111111111111100000000'))
